@@ -32,10 +32,9 @@ $ scrapyd-deploy
 ```
 
 test spider
-params: uid is the account id that you wanna spider
+params: uid is the sns account id that you wanna spider
 ```
-$ curl http://localhost:6800/schedule.json -d project=spider -d spider=gh_user 
--d uid=your-sns-account-id 
+$ curl http://localhost:6800/schedule.json -d project=spider -d spider=gh_user -d uid=account-id 
 ```
 
 check the result
