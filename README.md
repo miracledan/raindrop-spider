@@ -22,7 +22,7 @@ $ source env/local/bin/activate
 $ scrapyd
 ```
 
-deploy scrapy spider
+deploy scrapy spider<br>
 open a new ssh tab, excute commands to deploy scrapy spider on scrapyd server
 ```
 $ cd raindrop-spider
@@ -31,14 +31,14 @@ $ cd spider
 $ scrapyd-deploy
 ```
 
-test spider
+test spider<br>
 params: uid is the sns account id that you wanna spider
 ```
 $ curl http://localhost:6800/schedule.json -d project=spider -d spider=gh_user -d uid=account-id 
 ```
 
-check the result
-1.check log, if the spider task succeed, you could see the logs below
+check the result<br>
+1check log, if the spider task succeed, you could see the logs below
 ```
 2015-10-22 15:44:44+0000 [-] Process started:  project='spider' spider='gh_user' 
 job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199 
@@ -49,7 +49,7 @@ job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199
 log='logs/spider/gh_user/cf1e9a2678d311e5bdd5080027880ca6.log' 
 ```
 
-2.check mongodb
+2.check mongodb<br>
 you could check mongodb after seconds
 ```
 $ mongo
