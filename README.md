@@ -1,5 +1,5 @@
 # raindrop-spider
-A spider base on scrapy framework.
+A simple distribute spider base on scrapy framework.
 
 * [Reference](https://github.com/miracledan/raindrop-spider/blob/master/README.md#reference)
 * [Install](https://github.com/miracledan/raindrop-spider/blob/master/README.md#install)
