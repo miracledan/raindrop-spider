@@ -13,10 +13,10 @@ $ pip install -r requirement.txt
 ```
 
 ## Reference
-[scrapy](https://github.com/scrapy/scrapy)
-[scrapyd](https://github.com/scrapy/scrapyd)
-[scrapyd-client](https://github.com/scrapy/scrapyd-client)
-[mongodb](https://www.mongodb.org/)
+[scrapy](https://github.com/scrapy/scrapy)<br>
+[scrapyd](https://github.com/scrapy/scrapyd)<br>
+[scrapyd-client](https://github.com/scrapy/scrapyd-client)<br>
+[mongodb](https://www.mongodb.org/)<br>
 
 ## Fast start
 ### config scrapyd and then start a scrapyd server
