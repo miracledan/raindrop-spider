@@ -1,7 +1,7 @@
 # raindrop-spider
 A spider base on scrapy framework.
 
-## install
+## Install
 ```
 $ apt-get install curl libffi-dev libxml2-dev libxslt1-dev -y
 $ apt-get install mongodb -y
@@ -40,9 +40,11 @@ $ curl http://localhost:6800/schedule.json -d project=spider -d spider=gh_user -
 check the result
 1.check log, if the spider task succeed, you could see the logs below
 ```
-2015-10-22 15:44:44+0000 [-] Process started:  project='spider' spider='gh_user' job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199 log='logs/spider/gh_user/cf1e9a2678d311e5bdd5080027880ca6.log'
+2015-10-22 15:44:44+0000 [-] Process started:  project='spider' spider='gh_user' 
+job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199 log='logs/spider/gh_user/cf1e9a2678d311e5bdd5080027880ca6.log'
 
-2015-10-22 15:44:47+0000 [-] Process finished:  project='spider' spider='gh_user' job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199 log='logs/spider/gh_user/cf1e9a2678d311e5bdd5080027880ca6.log' 
+2015-10-22 15:44:47+0000 [-] Process finished:  project='spider' spider='gh_user' 
+job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199 log='logs/spider/gh_user/cf1e9a2678d311e5bdd5080027880ca6.log' 
 ```
 
 2.check mongodb
