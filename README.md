@@ -12,6 +12,12 @@ $ source env/local/bin/activate
 $ pip install -r requirement.txt
 ```
 
+## Reference
+[scrapy](https://github.com/scrapy/scrapy)
+[scrapyd](https://github.com/scrapy/scrapyd)
+[scrapyd-client](https://github.com/scrapy/scrapyd-client)
+[mongodb](https://www.mongodb.org/)
+
 ## Fast start
 ### config scrapyd and then start a scrapyd server
 ```
@@ -39,7 +45,7 @@ $ curl http://localhost:6800/schedule.json -d project=spider -d spider=gh_user -
 
 ### check the result
 1.check log<br>
-if the spider task succeed, you could see the logs below
+you would see the logs below if the spider task succeed
 ```
 2015-10-22 15:44:44+0000 [-] Process started:  project='spider' spider='gh_user' 
 job='cf1e9a2678d311e5bdd5080027880ca6' pid=4199 
@@ -67,7 +73,11 @@ you can check data in collections by commad like this
 > db.gh_user.find({})
 ```
 
-you can change the data store by edit `pipelines.py`
+## Development
+
+### develop your own spider
+
+
 
 
 
